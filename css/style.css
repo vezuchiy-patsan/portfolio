@@ -1,3 +1,104 @@
-body{
-    background-image: url(https://phonoteka.org/uploads/posts/2021-06/1624101890_28-phonoteka_org-p-oboi-gradient-krasivo-28.jpg);
+*{
+ margin: 0;
+ padding: 0;  
 }
+
+body{
+    background-color: #F5F5F5;
+}
+
+header{
+   
+    height: 500px;
+}
+nav.nav_but{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 10;
+}
+nav.nav_but > .nav-item{
+    padding: 15px 50px 25px 15px;
+    margin: 10px 40px 10px  0;
+}
+
+nav.nav_but > .nav-item{
+    color: white;
+    text-align: right;
+}
+
+img.img_b{
+    width: 100%;
+    height: 500px;  
+}
+
+.img_back{
+   position: relative;
+   top: -88px;
+   
+   z-index: -1;
+}
+
+.img_prof{
+
+}
+.img_i{
+    width: 130%;
+    height: 250px;
+    border-radius: 100%;
+    box-shadow: 0 0 1px 1px;
+}
+main .about_me{
+    display: flex;
+    margin: 75px 0 75px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.skill{
+    padding-top: 75px;
+    margin-bottom: 80px;
+}
+
+section .my_skill{  
+    margin: 1em;
+    width: 200px;
+    margin-left: 1500px;
+    
+}
+section .my_skill>li{
+   list-style: none;
+   
+}
+section .my_skill>li.HTML{
+    list-style: url("../svg/html5.svg") inside;
+}
+section .my_skill>li.CSS{
+    list-style: url("../svg/css3.svg") inside;
+}
+section .my_skill>li.JS{
+    list-style: url("../svg/js.svg") inside;
+}
+section .my_skill>li.Bt{
+    list-style: url("../svg/bootstrap.svg") inside;
+}
+section .my_skill>li.PHP{
+    list-style: url("../svg/php .svg") inside;
+}
+
+footer{
+    height: 80px;
+    background-color: black;
+}
+
+.foot{
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items:center;
+}
+
+.foot>:nth-child(n):not(:last-child){
+    margin-right: 10px;
+}
+
