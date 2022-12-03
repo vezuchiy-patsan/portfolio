@@ -7,71 +7,131 @@ body{
     background-color: #F5F5F5;
 }
 
+a{
+    text-decoration: none;
+    color:#F5F5F5;
+    
+}
+
 header{
-   
-    height: 500px;
+   height: 400px;
 }
 nav.nav_but{
-    position: relative;
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: flex-end;
+    
+    background-color: rgb(60, 60, 60, 0.9 );
+    box-shadow: 0 -1px 1px 1px rgb(60 60 60 / 90%);
     z-index: 10;
 }
-nav.nav_but > .nav-item{
-    padding: 15px 50px 25px 15px;
-    margin: 10px 40px 10px  0;
+nav.nav_but a .nav-item{
+    padding: 25px 50px 25px 50px;
+    
 }
 
-nav.nav_but > .nav-item{
-    color: white;
-    text-align: right;
+nav.nav_but a .nav-item{
+    
 }
 
-img.img_b{
+nav.nav_but>a .nav-item {
+    font-size: 20px;
+
+}
+
+nav.nav_but a> .nav-item:hover{
+    padding-top: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(44, 42, 42);
+    
+}
+
+.img_place{
     width: 100%;
-    height: 500px;  
+    height: 100%;
 }
 
-.img_back{
-   position: relative;
-   top: -88px;
-   
-   z-index: -1;
+.img_place .img_back{
+    position: relative;
+    background-image: url('../img/BACK.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    top: -70px;
+    margin: 0 0 0 -15px;
+    filter: blur(3px);
+    z-index: -1;
+/*    top: -70px;
+   overflow: hidden;
+   */
+}
+
+header .text_h {
+    position: relative;
+    color: white;
+    text-align: center;
+    top: -300px;
 }
 
 .img_prof{
 
 }
 .img_i{
-    width: 130%;
+    width: 100%;
     height: 250px;
-    border-radius: 100%;
-    box-shadow: 0 0 1px 1px;
+    
+
 }
 main .about_me{
     display: flex;
-    margin: 75px 0 75px 0;
+    margin: 0    0 75px 0;
     justify-content: space-around;
     align-items: center;
+    
+}
+
+main .about_me .descr_ab{
+    width: 25%;
+}
+
+main .about_me .descr_ab p{
+    font-size: 26px;
 }
 
 section.skill{
     padding-top: 75px;
     margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.skill .img_skill{
+    width: 30%;
+}
+
+section.skill .img_skill img{
+    width: 100%;
+}
+
+section.skill :nth-child(n){
+    padding-left: 95px;
 }
 
 section .my_skill{  
     margin: 1em;
-    width: 200px;
-    margin-left: 1500px;
+    width: 20%;
+    
     
 }
 section .my_skill>li{
    list-style: none;
-   
+   font-size: 32px;
 }
 section .my_skill>li.HTML{
     list-style: url("../svg/html5.svg") inside;
+    
 }
 section .my_skill>li.CSS{
     list-style: url("../svg/css3.svg") inside;
@@ -100,5 +160,10 @@ footer{
 
 .foot>:nth-child(n):not(:last-child){
     margin-right: 10px;
+}
+
+.foot>div a:hover{
+    color: #bc1888;
+    transition: 0.1s linear;
 }
 
