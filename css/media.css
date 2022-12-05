@@ -1,0 +1,142 @@
+@media screen and (max-width: 1824px){
+    main section.skill :nth-child(n){
+        padding-left: 70px;
+    }
+}
+@media screen and (max-width: 1620px){
+    main section.skill :nth-child(n){
+        padding-left: 50px;
+    }
+    section.skill .img_skill{
+        width: 35%;
+    }
+    main .about_me .descr_ab{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 1220px) {
+    section.skill .img_skill{
+        width: 37%;
+    }
+    main .about_me .descr_ab{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    section.skill .img_skill{
+        width: 42%;
+    }
+    main .about_me .descr_ab{
+        width: 55%;
+        padding-right: 75px;    
+    }
+    main .about_me{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main .about_me{
+        flex-direction: column-reverse;
+    }
+    main .about_me .descr_ab{
+        width: 90%;
+        padding: 80px 0 0 0;    
+    }
+    .img_i{
+        height: 330px;
+    }
+    section.skill{
+        flex-direction: column;
+    }
+    main section.skill :nth-child(n){
+        padding-left: 0;
+    }
+    section.skill .img_skill{
+        width: 60%;
+    }
+    header .text_h {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    section.skill .img_skill{
+        width: 70%;
+    }
+    main .about_me .descr_ab p{
+        font-size: 26px;
+    }
+    header .text_h {
+        font-size: 26px;
+    }
+    nav.nav_but a .nav-item{
+        padding: 25px 35px 25px 35px;
+    }
+    nav.nav_but>a .nav-item {
+        font-size: 16px;
+
+    }
+
+}
+
+@media screen and (max-width: 412px){
+    section.skill .img_skill{
+        width: 90%;
+    }
+    .img_i{
+        height: 280px;
+    }
+    header .text_h {
+        font-size: 20px;
+        top: -250px;
+    }
+    nav.nav_but a .nav-item{
+        padding: 25px 25px 25px 25px;
+    }
+    nav.nav_but>a .nav-item {
+        font-size: 14px;
+
+    }
+    section .my_skill>li{
+        font-size: 26px;
+    }
+    .img_place{
+        height: 90%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    section.skill .img_skill{
+        width: 90%;
+    }
+    main .about_me .descr_ab p{
+        font-size: 20px;
+    }
+    .img_i{
+        height: 220px;
+    }
+    header .text_h {
+        font-size: 16px;
+        
+    }
+    section .my_skill>li{
+        font-size: 20px;
+    }
+    nav.nav_but a .nav-item{
+        padding: 20px 15px 20px 15px;
+    }
+    nav.nav_but>a .nav-item {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 281px){
+    header .text_h {
+        font-size: 13px;
+    }
+    .foot>div{
+        margin-left: 0;
+    }
+}

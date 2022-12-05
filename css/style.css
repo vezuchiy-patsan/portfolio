@@ -22,7 +22,7 @@ nav.nav_but{
     display: flex;
     justify-content: flex-end;
     
-    background-color: rgb(60, 60, 60, 0.9 );
+    background-color: rgb(60, 60, 60, 1 );
     box-shadow: 0 -1px 1px 1px rgb(60 60 60 / 90%);
     z-index: 10;
 }
@@ -36,8 +36,9 @@ nav.nav_but a .nav-item{
 }
 
 nav.nav_but>a .nav-item {
-    font-size: 20px;
-
+    font-size: 18px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 500;
 }
 
 nav.nav_but a> .nav-item:hover{
@@ -50,6 +51,7 @@ nav.nav_but a> .nav-item:hover{
 .img_place{
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .img_place .img_back{
@@ -59,7 +61,7 @@ nav.nav_but a> .nav-item:hover{
     background-size: 100% 100%;
     height: 100%;
     top: -70px;
-    margin: 0 0 0 -15px;
+    margin: 0 -10px 0 -15px;
     filter: blur(3px);
     z-index: -1;
 /*    top: -70px;
@@ -70,13 +72,13 @@ nav.nav_but a> .nav-item:hover{
 header .text_h {
     position: relative;
     color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
     text-align: center;
     top: -300px;
 }
 
-.img_prof{
-
-}
 .img_i{
     width: 100%;
     height: 250px;
@@ -92,11 +94,13 @@ main .about_me{
 }
 
 main .about_me .descr_ab{
-    width: 25%;
+    width: 30%;
 }
 
 main .about_me .descr_ab p{
-    font-size: 26px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
 }
 
 section.skill{
@@ -116,17 +120,17 @@ section.skill .img_skill img{
 }
 
 section.skill :nth-child(n){
-    padding-left: 95px;
+    padding-left: 90px;
 }
 
 section .my_skill{  
     margin: 1em;
-    width: 20%;
-    
-    
+
 }
 section .my_skill>li{
    list-style: none;
+   font-family: 'Roboto Flex', sans-serif;
+   font-weight: 500;
    font-size: 32px;
 }
 section .my_skill>li.HTML{
@@ -160,6 +164,10 @@ footer{
 
 .foot>:nth-child(n):not(:last-child){
     margin-right: 10px;
+}
+
+.foot>div{
+    margin-left: 15px;
 }
 
 .foot>div a:hover{
